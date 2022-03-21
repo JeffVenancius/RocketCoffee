@@ -1,0 +1,102 @@
+* {
+	font-family: 'Manrope',sans-serif;
+	color: #fff;
+}
+
+body {
+	margin: 0;
+	background: black;
+}
+
+header {
+	display: grid;
+	grid-template-columns: 1fr 2fr 5fr 1fr 1fr 1fr; 
+	height: 118px;
+	align-items: end;
+}
+
+.options {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+}
+
+button {
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.option__button {
+	border: none;
+	width: 100px;
+}
+
+.option__button:hover {
+	color: #8257E5;
+}
+
+.option__button:active {
+	color: #e0e0e0;
+}
+
+.ask__button {
+	border-color: #8257E5;
+	width: 300px;
+	height: 40px;
+	border-radius: 10px;
+}
+
+.ask__button:hover {
+	border-color: #6140ad;
+}
+.ask__button:active{
+	color: #e0e0e0;
+}
+
+main {
+	margin-top: 80px;
+	display: flex;
+	flex-direction: column;
+	height: 39.083vw
+}
+
+h1 {
+	text-align: center;
+	font-size: 64px;
+	margin-top: 120px;
+	line-height: 8px;
+}
+
+.logo__coffee {
+	margin-top: 45px;
+	color: #000;
+	text-shadow: 0 1px 1px #8257E5, 0 -1px 1px #8257E5,1px 0 1px #8257E5, -1px 0 1px #8257E5,1px 1px 1px #8257E5, -1px -1px 1px #8257E5,1px -1px 1px #8257E5,-1px 1px 1px #8257E5;
+}
+
+.coffee {
+	position: absolute;
+	width: 50%;
+	bottom: 0;
+	left: 25%;
+}
+
+.bg {
+	position: relative;
+}
+
+.bg__bottom, .bg__top {
+	position: absolute;
+	z-index: -1;
+}
+
+.bg__bottom {
+	bottom: 0;
+	left: 0;
+}
+.bg__top {
+	top: 0;
+	right: 0;
+}
+
+.bottom {
+	display: flex;
+}
