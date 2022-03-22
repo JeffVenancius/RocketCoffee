@@ -15,24 +15,24 @@ header {
 	justify-content: space-between;
 }
 
-.first-page, .second-page {
+#first-page, #second-page {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
 }
-.first-page footer {
+#first-page footer {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	margin-top: 26%;
 }
 
-.second-page {
+#second-page {
 	visibility: hidden;
 }
 
-.second-page main {
+#second-page main {
 	position: absolute;
 	top: 64px;
 	display: flex;
@@ -63,7 +63,7 @@ button {
 	cursor: pointer;
 }
 
-.menu__button,.option__button {
+#menu__button,.option__button {
 	border: none;
 }
 
@@ -71,6 +71,7 @@ button {
 	font-size: 16px;
 	color: #A8A8B3;
 	padding-bottom: 10px;
+	padding-left: 16px;
 	margin-top: 10px;
 	width: 100%;
 	text-align: left;
@@ -89,7 +90,7 @@ button {
 	border-radius: 10px;
 }
 
-.menu__button:hover{
+#menu__button:hover{
 	opacity: 0.8;
 }
 
