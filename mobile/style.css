@@ -10,7 +10,8 @@ body {
 }
 
 header {
-	width: 100%;
+	width: 95%;
+	margin-left: 16px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -25,7 +26,8 @@ header {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	margin-top: 26%;
+	align-items: center;
+	margin-top: 16%;
 }
 
 #second-page {
@@ -118,16 +120,20 @@ button {
 }
 
 .coffee__cup {
-	margin-top: 50px;
+	margin-top: 30px; 
 	width: 100vw;
+	position: fixed;
+	bottom: 0;
+	z-index: -1;
 }
 
 .bg {
-	position: absolute;
-	width: 90%;
+	position: fixed;
+	width: 100%;
 	margin: 0;
 	bottom: 0;
-	z-index: -1;
+	left: 0;
+	z-index: -2;
 }
 
 .right {
